@@ -1,0 +1,18 @@
+*{  
+    margin: 0px
+    padding: 0px;
+}
+.parent{
+    width: 300px;
+    height: 400px;
+    background-color: green;
+    position: sticky;
+    /* margin: 50px; */
+    top: 0px;
+}
+.red{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: red;
+}
