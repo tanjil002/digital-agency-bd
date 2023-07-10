@@ -77,12 +77,13 @@
 }
 .box{
     text-align: center;
-    width: 100px;
-    height: 80;
+    width: 80px;
+    height: 60;
     padding: 50px;
     background-color: white;
     color: black;
     border-radius: 5px;
+    
     /* box-shadow: rgb(87, 84, 84); */
 }
 .service-description{
@@ -111,7 +112,19 @@
     border-right: 2px solid red;
     padding-right: 20px;
 }
-/* .phone-call{
+.phone-call{
     display: flex;
     align-items: center;
-} */
+}
+.appointment-container{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: -30px;
+    align-items: center;
+    position: relative;
+}
